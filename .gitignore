@@ -1,2 +1,7 @@
 data/
 model.pth
+data_original/
+data_remove_scribble/
+data_r_s_in_depth_cleaning/
+venv/
+data.zip

@@ -1,0 +1,46 @@
+2024-12-20 15:45:49,667 INFO    MainThread:16836 [wandb_setup.py:_flush():68] Current SDK version is 0.19.0
+2024-12-20 15:45:49,668 INFO    MainThread:16836 [wandb_setup.py:_flush():68] Configure stats pid to 16836
+2024-12-20 15:45:49,668 INFO    MainThread:16836 [wandb_setup.py:_flush():68] Loading settings from C:\Users\crist\.config\wandb\settings
+2024-12-20 15:45:49,668 INFO    MainThread:16836 [wandb_setup.py:_flush():68] Loading settings from c:\Users\crist\Documents\DL_Coursera_Sigmoid\Course1_w3_4\wandb\settings
+2024-12-20 15:45:49,668 INFO    MainThread:16836 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2024-12-20 15:45:49,668 INFO    MainThread:16836 [wandb_init.py:_log_setup():528] Logging user logs to c:\Users\crist\Documents\DL_Coursera_Sigmoid\Course1_w3_4\wandb\run-20241220_154549-rwro70kf\logs\debug.log
+2024-12-20 15:45:49,669 INFO    MainThread:16836 [wandb_init.py:_log_setup():529] Logging internal logs to c:\Users\crist\Documents\DL_Coursera_Sigmoid\Course1_w3_4\wandb\run-20241220_154549-rwro70kf\logs\debug-internal.log
+2024-12-20 15:45:49,669 INFO    MainThread:16836 [wandb_init.py:init():639] calling init triggers
+2024-12-20 15:45:49,670 INFO    MainThread:16836 [wandb_init.py:init():645] wandb.init called with sweep_config: {}
+config: {}
+2024-12-20 15:45:49,670 INFO    MainThread:16836 [wandb_init.py:init():683] wandb.init() called when a run is still active
+2024-12-20 15:45:49,671 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'epochs': 10, 'learning_rate': 0.001, 'batch_size': 32, 'optimizer': 'SGD', 'activation': 'ReLU', 'hidden_units': 512}
+2024-12-20 15:45:49,673 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:45:50,188 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:45:50,645 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:45:51,228 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:45:51,704 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:45:52,441 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:45:53,019 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:45:53,735 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'ReLU', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:45:54,292 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:45:54,923 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:45:55,392 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:45:55,931 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:45:56,418 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:45:57,135 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:45:57,714 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:45:58,422 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Sigmoid', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:45:58,992 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:45:59,545 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'SGD', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:46:00,028 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:46:00,579 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'SGD', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:46:01,049 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 32}
+2024-12-20 15:46:01,772 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'Adam', 'learning_rate': 0.001, 'batch_size': 64}
+2024-12-20 15:46:02,335 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 32}
+2024-12-20 15:46:03,094 INFO    MainThread:16836 [wandb_run.py:_config_callback():1375] config_cb None None {'activation': 'Tanh', 'optimizer': 'Adam', 'learning_rate': 0.0001, 'batch_size': 64}
+2024-12-20 15:46:03,707 INFO    MainThread:16836 [wandb_run.py:_finish():2169] finishing run cristarna21-tum/breast-cancer-classification/548flnsy
+2024-12-20 15:46:03,709 ERROR   MainThread:16836 [jupyter.py:save_history():451] Run pip install nbformat to save notebook history
+2024-12-20 15:46:03,709 INFO    MainThread:16836 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-12-20 15:46:03,710 INFO    MainThread:16836 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2024-12-20 15:46:03,710 INFO    MainThread:16836 [wandb_run.py:_atexit_cleanup():2408] got exitcode: 0
+2024-12-20 15:46:03,711 INFO    MainThread:16836 [wandb_run.py:_restore():2390] restore
+2024-12-20 15:46:03,712 INFO    MainThread:16836 [wandb_run.py:_restore():2396] restore done
+2024-12-20 15:46:06,768 INFO    MainThread:16836 [wandb_run.py:_footer_history_summary_info():3951] rendering history
+2024-12-20 15:46:06,769 INFO    MainThread:16836 [wandb_run.py:_footer_history_summary_info():3983] rendering summary
+2024-12-20 15:46:06,787 INFO    MainThread:16836 [wandb_run.py:_footer_sync_info():3912] logging synced files
