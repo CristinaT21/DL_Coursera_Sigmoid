@@ -57,10 +57,10 @@ def augment_nested_images(data_dir, output_dir, brightness=0.1, contrast=0.1, de
 
 # Example Usage
 augment_nested_images(
-    data_dir=r"C:\Users\crist\Documents\DL_Coursera_Sigmoid\Lesson4(C2_w3_C3_w1)\data_augmented_bright\train",
-    output_dir=r"C:\Users\crist\Documents\DL_Coursera_Sigmoid\Lesson4(C2_w3_C3_w1)\data_augmented_bright\train", 
+    data_dir=r"C:\Users\crist\Documents\DL_Coursera_Sigmoid\Lesson4(C2_w3_C3_w1)\data_more_augmented\train",
+    output_dir=r"C:\Users\crist\Documents\DL_Coursera_Sigmoid\Lesson4(C2_w3_C3_w1)\data_more_augmented\train", 
     brightness=0.2,
     contrast=0.2,
     degrees=10,
-    num_augmentations=2
+    num_augmentations=3
 )

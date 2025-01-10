@@ -4,7 +4,7 @@ import numpy as np
 import json
 import sys
 
-directory = "./data_augmented_bright"
+directory = "./data_more_augmented"
 user_data = directory
 valid_data = directory
 test_data = directory + "/test" # this can be the label book, or any other test set you create
