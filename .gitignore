@@ -11,3 +11,8 @@ data.zip
 Coursera/
 low quality documents/
 document_classification/
+datasets/
+yolo11n-cls.pt
+runs/classify/
+runs/
+yolo11n.pt
