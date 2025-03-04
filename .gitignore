@@ -17,3 +17,4 @@ runs/classify/
 runs/
 yolo11n.pt
 /LMML/
+input.txt
